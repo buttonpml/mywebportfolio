@@ -11,6 +11,10 @@
   text-align: left;
 }
 
+p {
+    font-family: Raleway, sans-serif;
+}
+
 .resize {
     width: 500px;
     height: auto;
@@ -435,6 +439,3 @@ keyframes
     transform: translateX(0);
   }
 }
-
-
-

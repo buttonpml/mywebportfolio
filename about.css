@@ -11,22 +11,44 @@
   text-align: left;
 }
 
-p {
-    font-family: Raleway, sans-serif;
-}
-
 .resize {
     width: 500px;
     height: auto;
 }
 
-img {
-    margin-left: 1100px;
-    margin-left: 1000px;
+@media (max-width: 480px) {
+     .resize {
+      width: 230px;
+      height: auto;
+  }
+}
+
+
+
+.pic {
+    margin-left: 1470px;
+    margin-top: 90px;
     position: absolute;
     transform: rotate(-90deg);
 }
 
+@media (max-width: 1497px) {
+     .pic {
+      margin-left: 1050px;
+      margin-top: 90px;
+      position: absolute;
+      transform: rotate(-90deg);
+  }
+}
+
+@media (max-width: 480px) {
+     .pic {
+      margin-left: 270px;
+      margin-top: 260px;
+      position: absolute;
+      transform: rotate(-90deg);
+  }
+}
 
 
 /* -------------------------------- 
